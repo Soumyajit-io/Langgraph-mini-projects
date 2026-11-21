@@ -1,0 +1,18 @@
+[project]
+name = "langgraph1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.5.2",
+    "langchain-groq>=1.2.1",
+    "langchain-mcp-adapters>=0.2.1",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.1.7",
+    "langgraph>=1.2.24",
+    "langgraph-checkpoint-postgres>=3.0.3",
+    "psycopg[binary,pool]>=3.3.2",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+]
